@@ -13,6 +13,7 @@ td {
 }
 .weights td:nth-child(3) {
   border-left: none;
+  width: 2ch;
 }
 
 button {
@@ -69,4 +70,17 @@ button {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+/* Rotate results table to match original excel spreadsheet */
+.results tr {
+  display: block;
+  float: left;
+}
+.results td {
+  display: block;
+  min-width: 5ch;
+}
+.results th {
+  display: block;
 }
