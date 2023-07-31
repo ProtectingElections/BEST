@@ -55,7 +55,6 @@ button {
   border-radius: 6px;
   width: 500px;
   font-weight: normal;
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 

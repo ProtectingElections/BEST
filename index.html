@@ -12,300 +12,299 @@
 <body>
     <h1>Best Electoral Systems Test</h1>
     <!--break-->
-    <div class="slidecontainer">
-        <table class="weights">
-            <tr>
-                <th>How important is it that the electoral system...</th>
-                <th colspan="2">Importance <span class="tooltip">ⓘ
-                        <div class="tooltiptext">
-                            <strong>Scale 0 – 10</strong>
-                            <ul>
-                                <li>0: no priority</li>
-                                <li>5: average priority</li>
-                                <li>10: maximum priority</li>
-                            </ul>
-                        </div>
-                    </span>
-                </th>
-                <th>Explanation</th>
-            </tr>
-            <tr>
-                <div class="ballot">
-                    <td><label for="slider_ballot">
-                            Has low ballot paper printing costs
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_ballot" />
-                    </td>
-                    <td><span id="display_ballot">0</span></td>
-                    <td>
-                        <div class="tooltip">Printing costs depend on the number, size, colour and quality of ballot
-                            papers needed to carry out the elections. In cases where money is scarce, it is important to
-                            keep printing costs in mind when designing the electoral system.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="describe">
-                    <td><label for="slider_describe">
-                            Leads to descriptive representation
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_describe" />
-                    </td>
-                    <td><span id="display_describe">0</span></td>
-                    <td>
-                        <div class="tooltip">Descriptive representation refers to the idea that candidates in democratic
-                            elections should be elected to represent ethnic, religios, gender, and other
-                            majority/minority groups, rather than the population at large. According to this idea, an
-                            elected body should resemble a representative sample of the voters they are meant to
-                            represent concerning outward characteristics.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="geo">
-                    <td><label for="slider_geo">
-                            Leads to geographic representation
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_geo" />
-                    </td>
-                    <td><span id="display_geo">0</span></td>
-                    <td>
-                        <div class="tooltip">Geographic representation refers to representation of all parts of the
-                            country: north/south, east/west, urban/rural etc. In countries where the population
-                            identifies by region, it may be important to choose an electoral system which allows people
-                            to choose representatives from their own geographic area. On the other hand, it may be
-                            important to choose an electoral system that helps move away from regional fiefdoms by
-                            allowing/encouraging representation not based on geography.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="ind">
-                    <td><label for="slider_ind">
-                            Facilitates individual accountability
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_ind" />
-                    </td>
-                    <td><span id="display_ind">0</span></td>
-                    <td>
-                        <div class="tooltip">Individual accountability refers to the possibility for voters to identify,
-                            nominate, vote for and remove individual representatives from the legislature, as opposed to
-                            entire parties or governments only.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="gov">
-                    <td><label for="slider_gov">
-                            Leads to an accountable government
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_gov" />
-                    </td>
-                    <td><span id="display_gov">0</span></td>
-                    <td>
-                        <div class="tooltip">Government accountability refers to the possibility for voters to change
-                            governments if they are unhappy with their preformance.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="boundary">
-                    <td><label for="slider_boundary">
-                            Produces little or no need for boundary delimitation
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_boundary" />
-                    </td>
-                    <td><span id="display_boundary">0</span></td>
-                    <td>
-                        <div class="tooltip">Electoral systems with single member districts always require boundary
-                            delimitation to be carried out. Electoral systems with multi member districts sometimes use
-                            boundary delimitation and sometimes reapportionment (increasing or decreasing the number of
-                            seats in a district based on census figures or other requirements). Boundary delimitation is
-                            often costly and sometimes the basis of conflict relating to claims of gerrymandering -
-                            trying to draw boundaries to favour one group over another.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="strategic">
-                    <td><label for="slider_strategic">
-                            Limits the possibility of strategic voting
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_strategic" />
-                    </td>
-                    <td><span id="display_strategic">0</span></td>
-                    <td>
-                        <div class="tooltip">Strategic voting refers to the act of casting a vote for someone other than
-                            the the voters first preference in order to prevent an undesirable outcome.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="waste">
-                    <td><label for="slider_waste">
-                            Leads to few wasted votes
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_waste" />
-                    </td>
-                    <td><span id="display_waste">0</span></td>
-                    <td>
-                        <div class="tooltip">Wasted votes are votes that are not counted towards the election of a
-                            candidate.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="women">
-                    <td><label for="slider_women">
-                            Results in a high number of women in the legislature
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_women" />
-                    </td>
-                    <td><span id="display_women">0</span></td>
-                    <td>
-                        <div class="tooltip">Women´s representation is facilitated in party centred systems with large
-                            districts and high party magnitude.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="explain">
-                    <td><label for="slider_explain">
-                            Calculates results in a way that is easy to explain and understand
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_explain" />
-                    </td>
-                    <td><span id="display_explain">0</span></td>
-                    <td>
-                        <div class="tooltip">To ensure transparency and increase trust in the system, it is important
-                            that voters understand how votes are translated into seats, that it is done in an intuitive
-                            and credible way.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="easy">
-                    <td><label for="slider_easy">
-                            Makes it easy to vote
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_easy" />
-                    </td>
-                    <td><span id="display_easy">0</span></td>
-                    <td>
-                        <div class="tooltip">Some electoral systems require voters to make multiple choices, rank order
-                            or read while others only require a mark to be made next to a picture or a logo. Especially
-                            in countries where illiteracy is a problem, it may be important to consider the ease in
-                            which voting itself is carried out, to ensure an inclusive process.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="turnout">
-                    <td><label for="slider_turnout">
-                            Leads to high voter turnout
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_turnout" />
-                    </td>
-                    <td><span id="display_turnout">0</span></td>
-                    <td>
-                        <div class="tooltip">Voter turnout is affected by the electoral system as voters tend to turn
-                            out when their vote is likely to make a difference. Either in tight races in single member
-                            districts or when the system counts all votes in the country or in a large part of the
-                            country towards the election of the next candidate.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="link">
-                    <td><label for="slider_link">
-                            Creates strong linkages between voters and representatives
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_link" />
-                    </td>
-                    <td><span id="display_link">0</span></td>
-                    <td>
-                        <div class="tooltip">Linkages between voters and representatives may be strengthened when the
-                            voter knows and has access to his/her representative.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="pork">
-                    <td><label for="slider_pork">
-                            Creates little or no incentive for pork barrel politics
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_pork" />
-                    </td>
-                    <td><span id="display_pork">0</span></td>
-                    <td>
-                        <div class="tooltip">Pork barrel politics refers to the practice of representatives spending
-                            public funds in a particular constituency with the aim of increasing chances for reelection.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="oppose">
-                    <td><label for="slider_oppose">
-                            Creates an effective opposition
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_oppose" />
-                    </td>
-                    <td><span id="display_oppose">0</span></td>
-                    <td>
-                        <div class="tooltip">An effective opposition is one which has sufficient representation to
-                            provide a counterweight to a governing party or coalition, has reasonable future election
-                            prospects, and is not internally divided.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="extreme">
-                    <td><label for="slider_extreme">
-                            Excludes extremist parties from representation in the legislature
-                        </label></td>
-                    <td>
-                        <input type="range" min="0" max="10" value="0" class="slider" id="slider_extreme" />
-                    </td>
-                    <td><span id="display_extreme">0</span></td>
-                    <td>
-                        <div class="tooltip">Small extremist parties at the end of the political spectrum will have a
-                            greater chance of being represented in proportional systems, unless the party’s electoral
-                            support is geographically very concentrated.
-                        </div>
-                    </td>
-                </div>
-            </tr>
-        </table>
+    <table class="weights">
+        <tr>
+            <th>How important is it that the electoral system...</th>
+            <th colspan="2">Importance <span class="tooltip">ⓘ
+                    <div class="tooltiptext">
+                        <strong>Scale 0 – 10</strong>
+                        <ul>
+                            <li>0: no priority</li>
+                            <li>5: average priority</li>
+                            <li>10: maximum priority</li>
+                        </ul>
+                    </div>
+                </span>
+            </th>
+            <th>Explanation</th>
+        </tr>
+        <tr>
+            <div class="ballot">
+                <td><label for="slider_ballot">
+                        Has low ballot paper printing costs
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_ballot" />
+                </td>
+                <td><span id="display_ballot">0</span></td>
+                <td>
+                    <div>Printing costs depend on the number, size, colour and quality of ballot
+                        papers needed to carry out the elections. In cases where money is scarce, it is important to
+                        keep printing costs in mind when designing the electoral system.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="describe">
+                <td><label for="slider_describe">
+                        Leads to descriptive representation
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_describe" />
+                </td>
+                <td><span id="display_describe">0</span></td>
+                <td>
+                    <div>Descriptive representation refers to the idea that candidates in democratic
+                        elections should be elected to represent ethnic, religios, gender, and other
+                        majority/minority groups, rather than the population at large. According to this idea, an
+                        elected body should resemble a representative sample of the voters they are meant to
+                        represent concerning outward characteristics.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="geo">
+                <td><label for="slider_geo">
+                        Leads to geographic representation
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_geo" />
+                </td>
+                <td><span id="display_geo">0</span></td>
+                <td>
+                    <div>Geographic representation refers to representation of all parts of the
+                        country: north/south, east/west, urban/rural etc. In countries where the population
+                        identifies by region, it may be important to choose an electoral system which allows people
+                        to choose representatives from their own geographic area. On the other hand, it may be
+                        important to choose an electoral system that helps move away from regional fiefdoms by
+                        allowing/encouraging representation not based on geography.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="ind">
+                <td><label for="slider_ind">
+                        Facilitates individual accountability
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_ind" />
+                </td>
+                <td><span id="display_ind">0</span></td>
+                <td>
+                    <div>Individual accountability refers to the possibility for voters to identify,
+                        nominate, vote for and remove individual representatives from the legislature, as opposed to
+                        entire parties or governments only.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="gov">
+                <td><label for="slider_gov">
+                        Leads to an accountable government
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_gov" />
+                </td>
+                <td><span id="display_gov">0</span></td>
+                <td>
+                    <div>Government accountability refers to the possibility for voters to change
+                        governments if they are unhappy with their preformance.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="boundary">
+                <td><label for="slider_boundary">
+                        Produces little or no need for boundary delimitation
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_boundary" />
+                </td>
+                <td><span id="display_boundary">0</span></td>
+                <td>
+                    <div>Electoral systems with single member districts always require boundary
+                        delimitation to be carried out. Electoral systems with multi member districts sometimes use
+                        boundary delimitation and sometimes reapportionment (increasing or decreasing the number of
+                        seats in a district based on census figures or other requirements). Boundary delimitation is
+                        often costly and sometimes the basis of conflict relating to claims of gerrymandering -
+                        trying to draw boundaries to favour one group over another.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="strategic">
+                <td><label for="slider_strategic">
+                        Limits the possibility of strategic voting
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_strategic" />
+                </td>
+                <td><span id="display_strategic">0</span></td>
+                <td>
+                    <div>Strategic voting refers to the act of casting a vote for someone other than
+                        the the voters first preference in order to prevent an undesirable outcome.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="waste">
+                <td><label for="slider_waste">
+                        Leads to few wasted votes
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_waste" />
+                </td>
+                <td><span id="display_waste">0</span></td>
+                <td>
+                    <div>Wasted votes are votes that are not counted towards the election of a
+                        candidate.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="women">
+                <td><label for="slider_women">
+                        Results in a high number of women in the legislature
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_women" />
+                </td>
+                <td><span id="display_women">0</span></td>
+                <td>
+                    <div>Women´s representation is facilitated in party centred systems with large
+                        districts and high party magnitude.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="explain">
+                <td><label for="slider_explain">
+                        Calculates results in a way that is easy to explain and understand
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_explain" />
+                </td>
+                <td><span id="display_explain">0</span></td>
+                <td>
+                    <div>To ensure transparency and increase trust in the system, it is important
+                        that voters understand how votes are translated into seats, that it is done in an intuitive
+                        and credible way.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="easy">
+                <td><label for="slider_easy">
+                        Makes it easy to vote
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_easy" />
+                </td>
+                <td><span id="display_easy">0</span></td>
+                <td>
+                    <div>Some electoral systems require voters to make multiple choices, rank order
+                        or read while others only require a mark to be made next to a picture or a logo. Especially
+                        in countries where illiteracy is a problem, it may be important to consider the ease in
+                        which voting itself is carried out, to ensure an inclusive process.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="turnout">
+                <td><label for="slider_turnout">
+                        Leads to high voter turnout
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_turnout" />
+                </td>
+                <td><span id="display_turnout">0</span></td>
+                <td>
+                    <div>Voter turnout is affected by the electoral system as voters tend to turn
+                        out when their vote is likely to make a difference. Either in tight races in single member
+                        districts or when the system counts all votes in the country or in a large part of the
+                        country towards the election of the next candidate.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="link">
+                <td><label for="slider_link">
+                        Creates strong linkages between voters and representatives
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_link" />
+                </td>
+                <td><span id="display_link">0</span></td>
+                <td>
+                    <div>Linkages between voters and representatives may be strengthened when the
+                        voter knows and has access to his/her representative.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="pork">
+                <td><label for="slider_pork">
+                        Creates little or no incentive for pork barrel politics
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_pork" />
+                </td>
+                <td><span id="display_pork">0</span></td>
+                <td>
+                    <div>Pork barrel politics refers to the practice of representatives spending
+                        public funds in a particular constituency with the aim of increasing chances for reelection.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="oppose">
+                <td><label for="slider_oppose">
+                        Creates an effective opposition
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_oppose" />
+                </td>
+                <td><span id="display_oppose">0</span></td>
+                <td>
+                    <div>An effective opposition is one which has sufficient representation to
+                        provide a counterweight to a governing party or coalition, has reasonable future election
+                        prospects, and is not internally divided.
+                    </div>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="extreme">
+                <td><label for="slider_extreme">
+                        Excludes extremist parties from representation in the legislature
+                    </label></td>
+                <td>
+                    <input type="range" min="0" max="10" value="0" class="slider" id="slider_extreme" />
+                </td>
+                <td><span id="display_extreme">0</span></td>
+                <td>
+                    <div>Small extremist parties at the end of the political spectrum will have a
+                        greater chance of being represented in proportional systems, unless the party’s electoral
+                        support is geographically very concentrated.
+                    </div>
+                </td>
+            </div>
+        </tr>
+    </table>
     </div>
     <button type="button" id="calculate">
         Calculate
@@ -386,8 +385,7 @@
             <td><span id="parallel_relative">&nbsp;</span></td>
         </tr>
     </table>
-</div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+    </body>
 
 </html>
