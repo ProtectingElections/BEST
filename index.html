@@ -13,7 +13,7 @@
     <h1>Best Electoral Systems Test</h1>
     <!--break-->
     <div class="slidecontainer">
-        <table>
+        <table class="weights">
             <tr>
                 <th>How important is it that the electoral system...</th>
                 <th colspan="2">Importance <span class="tooltip">ⓘ
@@ -318,54 +318,73 @@
         <tr>
             <th>System</th>
             <th>Score</th>
+            <th>Score relative to "ideal system" <span class="tooltip">ⓘ
+                    <div class="tooltiptext">
+                        The "ideal system" would be one that perfectly matches all criteria and
+                        priorities. Such an ideal electoral system does not exist for most scenarios and
+                        available sytems only come close to a varying degree.
+                    </div>
+                </span></th>
         </tr>
         <tr>
             <td>List PR - closed lists: </td>
-            <td><span id="prclosed"></span></td>
+            <td><span id="prclosed_raw"></span></td>
+            <td><span id="prclosed_relative"></span></td>
         </tr>
         <tr>
             <td>List PR - open lists: </td>
-            <td><span id="propen"></span></td>
+            <td><span id="propen_raw"></span></td>
+            <td><span id="propen_relative"></span></td>
         </tr>
         <tr>
             <td>FPTP: </td>
-            <td><span id="fptp"></span></td>
+            <td><span id="fptp_raw"></span></td>
+            <td><span id="fptp_relative"></span></td>
         </tr>
         <tr>
             <td>TRS: </td>
-            <td><span id="trs"></span></td>
+            <td><span id="trs_raw"></span></td>
+            <td><span id="trs_relative"></span></td>
         </tr>
         <tr>
             <td>AV: </td>
-            <td><span id="av"></span></td>
+            <td><span id="av_raw"></span></td>
+            <td><span id="av_relative"></span></td>
         </tr>
         <tr>
             <td>STV: </td>
-            <td><span id="stv"></span></td>
+            <td><span id="stv_raw"></span></td>
+            <td><span id="stv_relative"></span></td>
         </tr>
         <tr>
             <td>SNTV: </td>
-            <td><span id="sntv"></span></td>
+            <td><span id="sntv_raw"></span></td>
+            <td><span id="sntv_relative"></span></td>
         </tr>
         <tr>
             <td>BV: </td>
-            <td><span id="bv"></span></td>
+            <td><span id="bv_raw"></span></td>
+            <td><span id="bv_relative"></span></td>
         </tr>
         <tr>
             <td>PBV: </td>
-            <td><span id="pbv"></span></td>
+            <td><span id="pbv_raw"></span></td>
+            <td><span id="pbv_relative"></span></td>
         </tr>
         <tr>
             <td>LV: </td>
-            <td><span id="lv"></span></td>
+            <td><span id="lv_raw"></span></td>
+            <td><span id="lv_relative"></span></td>
         </tr>
         <tr>
             <td>MMP: </td>
-            <td><span id="mmp"></span></td>
+            <td><span id="mmp_raw"></span></td>
+            <td><span id="mmp_relative"></span></td>
         </tr>
         <tr>
             <td>Parallel: </td>
-            <td><span id="parallel"></span></td>
+            <td><span id="parallel_raw"></span></td>
+            <td><span id="parallel_relative"></span></td>
         </tr>
     </table>
 </div>
